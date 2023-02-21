@@ -1,7 +1,7 @@
 
 function Header() {
     return (
-        <header>
+        <header className="header">
             <div>
                 <h1>Little Lemon</h1>
                 <h4>Chicago</h4>

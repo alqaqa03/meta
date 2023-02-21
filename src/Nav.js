@@ -1,6 +1,6 @@
 function Nav() {
     return (
-        <nav>
+        <nav className="nav">
             <img
             src="https://www.48hourslogo.com/oss/works/2022/01/08/0372776096/115168_45900_1de80bd0-6665-4562-894b-a6e9f3fcfe5a.jpg"
             alt="logo"
