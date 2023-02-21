@@ -1,16 +1,16 @@
 import './App.css';
-import Nav from './Nav.js';
-import Header from './Header.js';
-import Main from './Main.js';
-import Footer from './Footer.js';
+import Nav from './components/Nav.js';
+import HomePage from "./components/Homepage.js"
+import BookingPage from "./components/BookingPage.js"
 
 function App() {
   return (
     <>
       <Nav></Nav>
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/booking" element={<BookingPage />}></Route>
+      </Routes>
     </>
   );
 }
