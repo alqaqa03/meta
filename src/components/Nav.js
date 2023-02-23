@@ -6,7 +6,7 @@ function Nav() {
             alt="logo"
             />
             <ul>
-                <li><a href="#home">home</a></li>
+                <li><a href="/">home</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#menu">menu</a></li>
                 <li><a href="#reservation">reservation</a></li>
