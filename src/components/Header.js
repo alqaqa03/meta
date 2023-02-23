@@ -8,7 +8,7 @@ function Header() {
                 <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
                 <butten>Reserve a Table</butten>
             </div>
-            <img 
+            <img
             src="#"
             alt="food img"
             />
